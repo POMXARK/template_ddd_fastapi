@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "template-ddd-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["roman <1997pom@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "template_ddd_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.98.0"
+sqlalchemy = "^2.0.17"
+alembic = "^1.11.1"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
